@@ -11,12 +11,29 @@
     margin: auto;
 
 }
-
+#back-top{
+    position:fixed;
+    bottom: 2%;
+    right: 1%;
+    text-decoration: none;
+    color: black;
+    width: 4%;
+    height: 5%;
+    background-color: gray;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 15px;
+}
+#back-top>img{
+    width: 100%;
+    height: 100%;
+}
 #bio{
     display: inline-block;
     width: 49%;
     height: 30%;
-    margin-top: 30%;
+    margin-top: 28%;
 }
 #bio>h1{
     font-size: 5em;
@@ -33,6 +50,7 @@
 }
 
 #bb1{
+
     background-color: white;
     width: 275px;
     height: 275px;
@@ -41,58 +59,77 @@
 
     margin-top: 10%;
     transition: all ease 0.5s;
-    display: inline-block;
     position: absolute;
-
-    text-align: center;
+    font-size: 250%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
 }
 #bb1:hover{
+
     width: 325px;
     height: 325px;
     cursor: pointer;
     margin-left: -3%;
     border: 4px solid black;
+    box-shadow: 10px 10px 40px 10px gray;
 
 }
 
 #bb2{
+
     background-color: white;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 2px solid black;
 
+    display: flex;
+    align-items:center;
+    justify-content:center;
     position: absolute;
     transition: all ease 0.5s;
     margin-left: 15%;
     margin-top: 5%;
-
+    font-size: 225%;
+    
+    font-weight:bold;
     text-align: center;
 
 }
 
 #bb2:hover{
+    
     width: 250px;
     height: 250px;
     cursor: pointer;
     margin-left: 15%;
     margin-top: 2%;
     border: 4px solid black;
+    box-shadow: 10px 15px 40px 10px gray;
+
 }
 
 #bb3{
+
     background-color: white;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 2px solid black;
-
-    transition: all ease 0.5s;
     position: absolute;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    transition: all ease 0.5s;
+    font-size: 150%;
     margin-top: 3%;
     margin-left: 7%;
-    
+
     text-align: center;
+    font-weight:bold;
+
 }
 #bb3:hover{
     width: 200px;
@@ -101,6 +138,7 @@
     margin-left: 4%;
     margin-top: -1%;
     border: 4px solid black;
+    box-shadow: 10px 15px 40px 10px gray;
 }
 
 
@@ -235,10 +273,11 @@
     
         margin-top: 15%;
         transition: all ease 0.5s;
-        display: inline-block;
+        display: flex;
+        align-items:center;
+        justify-content:center;
         position: absolute;
-    
-        text-align: center;
+
     }
     #bb1:hover{
         width: 350px;
@@ -601,6 +640,7 @@
         
         text-align: center;
     }
+
     #bb3:hover{
         width: 200px;
         height: 200px;
@@ -649,6 +689,7 @@
         text-align: center;
     }
     #bb1:hover{
+
         width: 200px;
         height: 200px;
         cursor: pointer;
