@@ -1,294 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif ;
-}
-/* Home Screen */
-#main{
-
-    width: 70vw;
-    height: 100vh;
-    margin: auto;
-
-}
-#back-top{
-    position:fixed;
-    bottom: 2%;
-    right: 1%;
-    text-decoration: none;
-    color: black;
-    width: 4%;
-    height: 5%;
-    background-color: gray;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    border-radius: 15px;
-}
-#back-top>img{
-    width: 100%;
-    height: 100%;
-}
-#bio{
-    display: inline-block;
-    width: 49%;
-    height: 30%;
-    margin-top: 28%;
-}
-#bio>h1{
-    font-size: 5em;
-}
-#bio>p{
-    text-align: justify;
-}
-
-#bubblesDiv{
-    display: inline-block;
-    width: 40%;
-    height: 40%;
-    margin-left: 10%;
-}
-
-#bb1{
-
-    background-color: white;
-    width: 275px;
-    height: 275px;
-    border-radius: 50%;
-    border: 2px solid black;
-
-    margin-top: 10%;
-    transition: all ease 0.5s;
-    position: absolute;
-    font-size: 250%;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    font-weight:bold;
-}
-#bb1:hover{
-
-    width: 325px;
-    height: 325px;
-    cursor: pointer;
-    margin-left: -3%;
-    border: 4px solid black;
-    box-shadow: 10px 10px 40px 10px gray;
-    background: linear-gradient(#e66465, #9198e5);
-    color: white;
-}
-
-#bb2{
-
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 2px solid black;
-
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    position: absolute;
-    transition: all ease 0.5s;
-    margin-left: 15%;
-    margin-top: 5%;
-    font-size: 225%;
-    
-    font-weight:bold;
-    text-align: center;
-
-}
-
-#bb2:hover{
-    
-    width: 250px;
-    height: 250px;
-    cursor: pointer;
-    margin-left: 15%;
-    margin-top: 2%;
-    border: 4px solid black;
-    box-shadow: 10px 15px 40px 10px gray;
-    background: linear-gradient(#e66465, #9198e5);
-    color: white;
-
-}
-
-#bb3{
-
-    background-color: white;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 2px solid black;
-    position: absolute;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    transition: all ease 0.5s;
-    font-size: 150%;
-    margin-top: 3%;
-    margin-left: 7%;
-
-    text-align: center;
-    font-weight:bold;
-
-}
-#bb3:hover{
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
-    margin-left: 4%;
-    margin-top: -1%;
-    border: 4px solid black;
-    box-shadow: 10px 15px 40px 10px gray;
-    background: linear-gradient(#e66465, #9198e5);
-    color: white;
-}
-
-
-
-/* About Div */
-
-#about{
-    width: 70vw;
-    height: 100vh;
-    margin: auto;
-
-}
-
-#aboutContent{
-    width: 100%;
-    height: 90%;
-    padding-top: 10%;
-
-}
-#aboutContent>h1{
-    text-align: center;
-}
-
-#aboutme{
-    text-align: center;
-
-}
-
-/* Work Div */
-
-#work{
-    width: 70vw;
-    height: 100vh;
-    margin: auto;
-
-}
-#workContent{
-    width: 100%;
-    height: 90%;
-    padding-top: 10%;
-
-    text-align: center;
-}
-
-#workShowcaseDiv{
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-}
-#work>h1{
-
-    font-size: 250%;
-}
-
-.workBb{
-
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-
-    margin-top: 5%;
-    transition: all ease 0.5s;
-    background:url(../images/github-logo.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    padding-top: -1%;
-    
-}
-
-.workBb:hover{
-
-    width: 550px;
-    height: 550px;
-    margin-top: 2.5%;
-    cursor: pointer;
-
-}
-
-
-#contact{
-    
-    width: 70vw;
-    height: 100vh;
-    margin: auto;
-    
-}
-
-#contactContent{
-    width: 100%;
-    height: 90%;
-    margin-top: 10%;
-    text-align: center;
-}
-
-#contactBbContainer{
-    width: 100%;
-    height: 85%;
-    margin-top: 10%;
-    display: inline-flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-flow: row;
-    gap: 20px;
-}
-
-#contactBubbles1{
-    order: 0;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 2px solid black;
-
-
-}
-#contactBubbles2{
-    order: 1;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 2px solid black;
-
-
-}
-#contactBubbles3{
-    order: 2;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 2px solid black;
-
-}
-
-#contactBubbles1:hover{
-    cursor: pointer;
-}
-#contactBubbles2:hover{
-    cursor: pointer;
-}
-#contactBubbles3:hover{
-    cursor: pointer;
-}
-
 @media all and (min-width:1600px) and (max-width:1920px) {
 
     #bubblesDiv{
@@ -383,115 +92,113 @@
 
 @media all and (min-width: 1024px) and (max-width: 1280px) { 
 /* Home Screen */
-#main{
+    #main{
 
-    width: 70vw;
-    height: 100vh;
-    margin: auto;
+        width: 70vw;
+        height: 100vh;
+        margin: auto;
+
+    }
+
+    #bio{
+        display: inline-block;
+        width: 49%;
+        height: 30%;
+        margin-top: 30%;
+    }
+    #bio>h1{
+        font-size: 4em;
+    }
+    #bio>p{
+        text-align: justify;
+    }
+
+    #bubblesDiv{
+        display: inline-block;
+        width: 40%;
+        height: 40%;
+        margin-left: 10%;
+    }
+
+    #bb1{
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+        margin-top: 10%;
+        transition: all ease 0.5s;
+        font-size: 250%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
+    }
+    
+    #bb1:hover{
+        width: 300px;
+        height: 300px;
+        cursor: pointer;
+        margin-left: -3%;
+        border: 4px solid black;
+
+    }
+
+    #bb2{
+        background-color: white;
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+        border: 2px solid black;
+
+        position: absolute;
+        transition: all ease 0.5s;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: 200%;
+
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
 
 }
 
-#bio{
-    display: inline-block;
-    width: 49%;
-    height: 30%;
-    margin-top: 30%;
-}
-#bio>h1{
-    font-size: 4em;
-}
-#bio>p{
-    text-align: justify;
-}
+    #bb2:hover{
+        width: 225px;
+        height: 225px;
+        cursor: pointer;
+        margin-left: 15%;
+        margin-top: 2%;
+        border: 4px solid black;
+    }
 
-#bubblesDiv{
-    display: inline-block;
-    width: 40%;
-    height: 40%;
-    margin-left: 10%;
-}
+    #bb3{
+        background-color: white;
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        border: 2px solid black;
 
-#bb1{
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 2px solid black;
-
-    margin-top: 10%;
-    transition: all ease 0.5s;
-    font-size: 250%;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    font-weight:bold;
-}
-#bb1:hover{
-    width: 300px;
-    height: 300px;
-    cursor: pointer;
-    margin-left: -3%;
-    border: 4px solid black;
-
-}
-
-#bb2{
-    background-color: white;
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
-    border: 2px solid black;
-
-    position: absolute;
-    transition: all ease 0.5s;
-    margin-left: 15%;
-    margin-top: 5%;
-    font-size: 200%;
-
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    font-weight:bold;
-
-}
-
-#bb2:hover{
-    width: 225px;
-    height: 225px;
-    cursor: pointer;
-    margin-left: 15%;
-    margin-top: 2%;
-    border: 4px solid black;
-}
-
-#bb3{
-    background-color: white;
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    border: 2px solid black;
-
-    transition: all ease 0.5s;
-    position: absolute;
-    margin-top: 3%;
-    margin-left: 7%;
-     font-size: 150%;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    font-weight:bold;
-}
-#bb3:hover{
-    width: 175px;
-    height: 175px;
-    cursor: pointer;
-    margin-left: 4%;
-    margin-top: -1%;
-    border: 4px solid black;
-}
-
-
-
+        transition: all ease 0.5s;
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 7%;
+        font-size: 150%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
+    }
+    #bb3:hover{
+        width: 175px;
+        height: 175px;
+        cursor: pointer;
+        margin-left: 4%;
+        margin-top: -1%;
+        border: 4px solid black;
+        }
 }
  
 
