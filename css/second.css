@@ -74,7 +74,8 @@
     margin-left: -3%;
     border: 4px solid black;
     box-shadow: 10px 10px 40px 10px gray;
-
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
 }
 
 #bb2{
@@ -108,6 +109,8 @@
     margin-top: 2%;
     border: 4px solid black;
     box-shadow: 10px 15px 40px 10px gray;
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
 
 }
 
@@ -139,6 +142,8 @@
     margin-top: -1%;
     border: 4px solid black;
     box-shadow: 10px 15px 40px 10px gray;
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
 }
 
 
@@ -201,10 +206,14 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    border: 2px solid black;
+
     margin-top: 5%;
     transition: all ease 0.5s;
-
+    background:url(../images/github-logo.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top: -1%;
+    
 }
 
 .workBb:hover{
@@ -213,7 +222,7 @@
     height: 550px;
     margin-top: 2.5%;
     cursor: pointer;
-    border: 4px solid black;
+
 }
 
 
@@ -235,7 +244,9 @@
 #contactBbContainer{
     width: 100%;
     height: 85%;
+    margin-top: 10%;
     display: inline-flex;
+    justify-content: space-between;
     flex-direction: row;
     flex-flow: row;
     gap: 20px;
@@ -243,8 +254,8 @@
 
 #contactBubbles1{
     order: 0;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border: 2px solid black;
 
@@ -252,8 +263,8 @@
 }
 #contactBubbles2{
     order: 1;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border: 2px solid black;
 
@@ -261,26 +272,20 @@
 }
 #contactBubbles3{
     order: 2;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border: 2px solid black;
-    position: absolute;
+
 }
 
 #contactBubbles1:hover{
-    width: 275px;
-    height: 275px;
     cursor: pointer;
 }
 #contactBubbles2:hover{
-    width: 275px;
-    height: 275px;
     cursor: pointer;
 }
 #contactBubbles3:hover{
-    width: 275px;
-    height: 275px;
     cursor: pointer;
 }
 
@@ -329,7 +334,11 @@
         margin-left: 12%;
         margin-top: 10%;
     
-        text-align: center;
+        font-size: 200%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
     
     }
     
@@ -354,7 +363,11 @@
         margin-top: 8%;
         margin-left: 4%;
         
-        text-align: center;
+        font-size: 150%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
     }
     #bb3:hover{
         width: 250px;
@@ -367,110 +380,6 @@
     
 }
 
-@media all and (min-width: 1280px) and (max-width: 1600px) { 
-    /* Home Screen */
-    #main{
-    
-        width: 70vw;
-        height: 100vh;
-        margin: auto;
-    
-    }
-    
-    #bio{
-        display: inline-block;
-        width: 49%;
-        height: 30%;
-        margin-top: 40%;
-    }
-    #bio>h1{
-        font-size: 4em;
-    }
-    #bio>p{
-        text-align: justify;
-    }
-    
-    #bubblesDiv{
-        display: inline-block;
-        width: 40%;
-        height: 40%;
-        margin-left: 10%;
-    }
-    
-    #bb1{
-        background-color: white;
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-        border: 2px solid black;
-    
-        margin-top: 10%;
-        transition: all ease 0.5s;
-        display: inline-block;
-        position: absolute;
-    
-        text-align: center;
-    }
-    #bb1:hover{
-        width: 300px;
-        height: 300px;
-        cursor: pointer;
-        margin-left: -3%;
-        border: 4px solid black;
-    
-    }
-    
-    #bb2{
-        background-color: white;
-        width: 175px;
-        height: 175px;
-        border-radius: 50%;
-        border: 2px solid black;
-    
-        position: absolute;
-        transition: all ease 0.5s;
-        margin-left: 15%;
-        margin-top: 5%;
-    
-        text-align: center;
-    
-    }
-    
-    #bb2:hover{
-        width: 225px;
-        height: 225px;
-        cursor: pointer;
-        margin-left: 15%;
-        margin-top: 2%;
-        border: 4px solid black;
-    }
-    
-    #bb3{
-        background-color: white;
-        width: 125px;
-        height: 125px;
-        border-radius: 50%;
-        border: 2px solid black;
-    
-        transition: all ease 0.5s;
-        position: absolute;
-        margin-top: 3%;
-        margin-left: 7%;
-        
-        text-align: center;
-    }
-    #bb3:hover{
-        width: 175px;
-        height: 175px;
-        cursor: pointer;
-        margin-left: 4%;
-        margin-top: -1%;
-        border: 4px solid black;
-    }
-    
-    
-    
-    }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) { 
 /* Home Screen */
@@ -511,10 +420,11 @@
 
     margin-top: 10%;
     transition: all ease 0.5s;
-    display: inline-block;
-    position: absolute;
-
-    text-align: center;
+    font-size: 250%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
 }
 #bb1:hover{
     width: 300px;
@@ -536,8 +446,12 @@
     transition: all ease 0.5s;
     margin-left: 15%;
     margin-top: 5%;
+    font-size: 200%;
 
-    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
 
 }
 
@@ -561,8 +475,11 @@
     position: absolute;
     margin-top: 3%;
     margin-left: 7%;
-    
-    text-align: center;
+     font-size: 150%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
 }
 #bb3:hover{
     width: 175px;
@@ -619,10 +536,13 @@
 
     margin-top: 10%;
     transition: all ease 0.5s;
-    display: inline-block;
     position: absolute;
 
-    text-align: center;
+    font-size: 250%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
 }
 #bb1:hover{
     width: 325px;
@@ -644,8 +564,11 @@
     transition: all ease 0.5s;
     margin-left: 22%;
     margin-top: 2%;
-
-    text-align: center;
+    font-size: 200%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
 
 }
 
@@ -670,7 +593,11 @@
     margin-top: -4%;
     margin-left: 8%;
     
-    text-align: center;
+    font-size: 150%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
 }
 #bb3:hover{
     width: 225px;
@@ -721,10 +648,14 @@
     
         margin-top: 10%;
         transition: all ease 0.5s;
-        display: inline-block;
+
         position: absolute;
     
-        text-align: center;
+        font-size: 250%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
     }
     #bb1:hover{
         width: 300px;
@@ -744,10 +675,14 @@
     
         position: absolute;
         transition: all ease 0.5s;
-        margin-left: 25%;
+        margin-left: 30%;
         margin-top: 3%;
     
-        text-align: center;
+        font-size: 200%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
     
     }
     
@@ -772,7 +707,11 @@
         margin-top: -4%;
         margin-left: 13%;
         
-        text-align: center;
+        font-size: 150%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
     }
 
     #bb3:hover{
@@ -809,18 +748,20 @@
     
     #bb1{
         background-color: white;
-        width: 175px;
-        height: 175px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         border: 2px solid black;
     
         margin-top: 15%;
         transition: all ease 0.5s;
-        display: inline-block;
         position: absolute;
     
-        font-size: 10px;
-        text-align: center;
+        font-size: 200%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
     }
     #bb1:hover{
 
@@ -834,18 +775,21 @@
     
     #bb2{
         background-color: white;
-        width: 125px;
-        height: 125px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
         border: 2px solid black;
     
         position: absolute;
         transition: all ease 0.5s;
-        margin-left: 25%;
+        margin-left: 27%;
         margin-top: 7%;
-    
-        font-size: 10px;
-        text-align: center;
+
+        font-size: 150%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
     
     }
     
@@ -868,10 +812,13 @@
         transition: all ease 0.5s;
         position: absolute;
         margin-top: 1%;
-        margin-left: 13%;
+        margin-left: 12%;
         
-        font-size: 10px;
-        text-align: center;
+        font-size: 100%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
     }
     #bb3:hover{
         width: 150px;

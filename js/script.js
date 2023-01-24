@@ -50,3 +50,8 @@ $(document).ready(function(){
 
 
 });
+
+$(".workBb").click(function() {
+    window.location.href = "https://github.com/bernardooi"; 
+    return false;//Just in case if it is a link prevent default behavior
+});
