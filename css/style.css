@@ -36,12 +36,18 @@
     width: 49%;
     height: 30%;
     margin-top: 28%;
+    
 }
 #bio>h1{
     font-size: 5em;
+    text-shadow: 0 0 2px white;
 }
 #bio>p{
     text-align: justify;
+
+}
+#job{
+    color: rgba(192, 192, 2, 0.658);
 }
 
 #bubblesDiv{
